@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="classutils_1_1second_1_1AnotherClass" kind="class"><name>utils::second::AnotherClass</name>
+    <member refid="classutils_1_1second_1_1AnotherClass_1a5126e99df34cb7a3d702193dc3511114" kind="variable"><name>number_of_sounds</name></member>
+    <member refid="classutils_1_1second_1_1AnotherClass_1a2e1d6f6f0aa0f88ba790bbd1e49a1d14" kind="variable"><name>counter</name></member>
+    <member refid="classutils_1_1second_1_1AnotherClass_1a2221a3c49e7c701f5a1829249c53078d" kind="function"><name>sing</name></member>
+    <member refid="classutils_1_1second_1_1AnotherClass_1a6df6948dc0a20d9df49b49d89df7bbee" kind="function"><name>bark</name></member>
+    <member refid="classutils_1_1second_1_1AnotherClass_1a7f879de76a89c99be528367721e77526" kind="function"><name>smile</name></member>
+    <member refid="classutils_1_1second_1_1AnotherClass_1aa9be1f583ecdf7dd3d1e32a752c67006" kind="function"><name>help</name></member>
+  </compound>
+  <compound refid="classutils_1_1second_1_1MyClass" kind="class"><name>utils::second::MyClass</name>
+    <member refid="classutils_1_1second_1_1MyClass_1abeb796dd3e5c66f28340fdfe978007b1" kind="function"><name>bark</name></member>
+  </compound>
+  <compound refid="structMyStruct" kind="struct"><name>MyStruct</name>
+    <member refid="structMyStruct_1aa372b7473fe51ce2784d8653e17bc591" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="classutils_1_1second_1_1ThirdClass" kind="class"><name>utils::second::ThirdClass</name>
+    <member refid="classutils_1_1second_1_1ThirdClass_1a0b8841f3d07edf14f592150dab8f0046" kind="function"><name>bark</name></member>
+  </compound>
+  <compound refid="namespacemath" kind="namespace"><name>math</name>
+    <member refid="math_8h_1a0b2d8c3d7f189b107fcdfb5e40ab694c" kind="function"><name>add</name></member>
+  </compound>
+  <compound refid="namespaceutils" kind="namespace"><name>utils</name>
+  </compound>
+  <compound refid="namespaceutils_1_1nested" kind="namespace"><name>utils::nested</name>
+    <member refid="funcs_8h_1a5049cb5e6566fcb928af1f05dee569cd" kind="function"><name>my_func</name></member>
+    <member refid="funcs_8h_1a473e2055917748ea18369f55f9226ae8" kind="function"><name>my_func</name></member>
+    <member refid="funcs__three_8h_1a4932db5d1f6b4553535635906bffa3a5" kind="function"><name>another_func</name></member>
+    <member refid="funcs__three_8h_1a7e10476cb199c45ac5547997999af371" kind="function"><name>func_with_pointers</name></member>
+    <member refid="funcs__three_8h_1a64e30b24d77cedacf813d8e910ea8c7a" kind="function"><name>my_func</name></member>
+    <member refid="funcs__two_8h_1a84ee829975e83205e4d19ad95d193e7f" kind="function"><name>their_func</name></member>
+    <member refid="funcs__two_8h_1aba9044a671c9870fc6616d5968d283b1" kind="function"><name>their_func</name></member>
+    <member refid="funcs__two_8h_1a148cd7898973999d38680871eb7eaf05" kind="function"><name>their_func</name></member>
+  </compound>
+  <compound refid="namespaceutils_1_1second" kind="namespace"><name>utils::second</name>
+  </compound>
+  <compound refid="classes_8h" kind="file"><name>classes.h</name>
+  </compound>
+  <compound refid="classes__two_8h" kind="file"><name>classes_two.h</name>
+  </compound>
+  <compound refid="funcs_8h" kind="file"><name>funcs.h</name>
+    <member refid="funcs_8h_1a451470a505617c5422faf2b6df5e2d43" kind="function"><name>free_func</name></member>
+  </compound>
+  <compound refid="funcs__template_8hpp" kind="file"><name>funcs_template.hpp</name>
+    <member refid="funcs__template_8hpp_1af969a1dd1f0b5ebd1b4380a42cd0f66f" kind="function"><name>println</name></member>
+    <member refid="funcs__template_8hpp_1adbf4cefb343f576f1f3ba2e4a73738b2" kind="function"><name>multi_println</name></member>
+    <member refid="funcs__template_8hpp_1aa9b71ec13f0f9fe185a26b7e07e818ca" kind="function"><name>long_template_func</name></member>
+  </compound>
+  <compound refid="funcs__three_8h" kind="file"><name>funcs_three.h</name>
+  </compound>
+  <compound refid="funcs__two_8h" kind="file"><name>funcs_two.h</name>
+  </compound>
+  <compound refid="math_8h" kind="file"><name>math.h</name>
+  </compound>
+  <compound refid="structs_8h" kind="file"><name>structs.h</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

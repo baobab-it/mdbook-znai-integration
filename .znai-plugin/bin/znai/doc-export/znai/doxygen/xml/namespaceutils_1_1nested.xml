@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespaceutils_1_1nested" kind="namespace" language="C++">
+    <compoundname>utils::nested</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="funcs_8h_1a5049cb5e6566fcb928af1f05dee569cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::my_func</definition>
+        <argsstring>(int first_param, bool second_param)</argsstring>
+        <name>my_func</name>
+        <param>
+          <type>int</type>
+          <declname>first_param</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>top <bold>level</bold> comment <emphasis>of</emphasis> important<itemizedlist>
+<listitem><para>list one</para>
+</listitem><listitem><para>list two</para>
+</listitem><listitem><para>list three</para>
+</listitem></itemizedlist>
+<orderedlist>
+<listitem><para>number one</para>
+</listitem><listitem><para>number two</para>
+</listitem></orderedlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>first_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of first <emphasis>param</emphasis><orderedlist>
+<listitem><para>item a</para>
+</listitem><listitem><para>item b </para>
+</listitem></orderedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>second_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of second param </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs.h" line="17" column="6" bodyfile="src/funcs.h" bodystart="17" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs_8h_1a473e2055917748ea18369f55f9226ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::my_func</definition>
+        <argsstring>(int first_param)</argsstring>
+        <name>my_func</name>
+        <param>
+          <type>int</type>
+          <declname>first_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>specific description for single param version <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>first_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of first <emphasis>param</emphasis><orderedlist>
+<listitem><para>item a</para>
+</listitem><listitem><para>item b </para>
+</listitem></orderedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs.h" line="26" column="6" bodyfile="src/funcs.h" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__three_8h_1a4932db5d1f6b4553535635906bffa3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classutils_1_1second_1_1MyClass" kindref="compound">utils::second::MyClass</ref></type>
+        <definition>utils::second::MyClass utils::nested::another_func</definition>
+        <argsstring>(const utils::second::MyClass &amp;one, const utils::second::AnotherClass &amp;two)</argsstring>
+        <name>another_func</name>
+        <param>
+          <type>const <ref refid="classutils_1_1second_1_1MyClass" kindref="compound">utils::second::MyClass</ref> &amp;</type>
+          <declname>one</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classutils_1_1second_1_1AnotherClass" kindref="compound">utils::second::AnotherClass</ref> &amp;</type>
+          <declname>two</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance of my class </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance of another class </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_three.h" line="7" column="24" bodyfile="src/funcs_three.h" bodystart="7" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__three_8h_1a7e10476cb199c45ac5547997999af371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classutils_1_1second_1_1MyClass" kindref="compound">utils::second::MyClass</ref></type>
+        <definition>utils::second::MyClass utils::nested::func_with_pointers</definition>
+        <argsstring>(const utils::second::MyClass *one, const utils::second::AnotherClass *two)</argsstring>
+        <name>func_with_pointers</name>
+        <param>
+          <type>const <ref refid="classutils_1_1second_1_1MyClass" kindref="compound">utils::second::MyClass</ref> *</type>
+          <declname>one</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classutils_1_1second_1_1AnotherClass" kindref="compound">utils::second::AnotherClass</ref> *</type>
+          <declname>two</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_three.h" line="10" column="24" bodyfile="src/funcs_three.h" bodystart="10" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__three_8h_1a64e30b24d77cedacf813d8e910ea8c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::my_func</definition>
+        <argsstring>(bool second_param)</argsstring>
+        <name>my_func</name>
+        <param>
+          <type>bool</type>
+          <declname>second_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_three.h" line="13" column="6" bodyfile="src/funcs_three.h" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__two_8h_1a84ee829975e83205e4d19ad95d193e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::their_func</definition>
+        <argsstring>(long param1, std::string param2, bool param3)</argsstring>
+        <name>their_func</name>
+        <param>
+          <type>long</type>
+          <declname>param1</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>param2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>param3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_two.h" line="4" column="6" bodyfile="src/funcs_two.h" bodystart="4" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__two_8h_1aba9044a671c9870fc6616d5968d283b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::their_func</definition>
+        <argsstring>(long param1, bool param3)</argsstring>
+        <name>their_func</name>
+        <param>
+          <type>long</type>
+          <declname>param1</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>param3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Description of <emphasis>what</emphasis> and <emphasis>why</emphasis> for their_func</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>param1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of param1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of param3 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_two.h" line="13" column="6" bodyfile="src/funcs_two.h" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="funcs__two_8h_1a148cd7898973999d38680871eb7eaf05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void utils::nested::their_func</definition>
+        <argsstring>(long param1)</argsstring>
+        <name>their_func</name>
+        <param>
+          <type>long</type>
+          <declname>param1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/funcs_two.h" line="16" column="6" bodyfile="src/funcs_two.h" bodystart="16" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/funcs.h" line="2" column="1"/>
+  </compounddef>
+</doxygen>
