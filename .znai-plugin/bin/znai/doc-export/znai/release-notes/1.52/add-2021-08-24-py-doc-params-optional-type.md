@@ -1,0 +1,1 @@
+* Handle optional type during [python doc params](python/description-extraction#doc-parameters) parsing

@@ -1,0 +1,1 @@
+* Add support for parameter names with dashes (`-`) to [python doc params](python/description-extraction#doc-parameters)
