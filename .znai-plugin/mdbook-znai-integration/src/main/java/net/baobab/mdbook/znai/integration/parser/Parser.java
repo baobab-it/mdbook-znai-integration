@@ -169,7 +169,16 @@ public class Parser {
 
         // attention sign
         Map<String, String> atentionSingMap = new HashMap<>();
-        atentionSingMap.put("Note:", "Зверніть увагу");
+        atentionSingMap.put("Note:", "Note");
+        atentionSingMap.put("Warning:", "Warning");
+        atentionSingMap.put("Question:", "Question");
+        atentionSingMap.put("Exercise:", "Exercise");
+        atentionSingMap.put("Avoid:", "Avoid");
+        atentionSingMap.put("Don't", "Don't");
+        atentionSingMap.put("Do not:", "Do notь");
+        atentionSingMap.put("Tip:", "Tip");
+        atentionSingMap.put("Recommendation:", "Recommendation");
+/*      atentionSingMap.put("Note:", "Зверніть увагу");
         atentionSingMap.put("Warning:", "Попередження");
         atentionSingMap.put("Question:", "Запитання");
         atentionSingMap.put("Exercise:", "Вправа");
@@ -177,8 +186,8 @@ public class Parser {
         atentionSingMap.put("Don't", "Не робіть");
         atentionSingMap.put("Do not:", "Не робіть");
         atentionSingMap.put("Tip:", "Порада");
-        atentionSingMap.put("Recommendation:", "Рекомендація");
-
+        atentionSingMap.put("Recommendation:", "Рекомендація");*/
+        
         doc.select(".znai-attention-block-icon")
                 .stream()
                 .forEach(el -> {
