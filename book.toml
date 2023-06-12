@@ -1,0 +1,22 @@
+[book]
+title = "MDBook Znai Integration"
+authors = ["", ""]
+language = "en"
+description = "MDBook Znai documentation integration"
+multilingual = true
+src = "src"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = false
+copy-fonts = false
+no-section-label = false
+input-404 = "_not-found.md"
+
+[rust]
+edition = "2021"
+
+[preprocessor.znai]
+command = "java -jar .znai-plugin/mdbook-znai-integration/target/mdbook-znai-inegration-jar-with-dependencies.jar"
