@@ -1,0 +1,1 @@
+* Add [include-python-class: package.ClassName](python/auto-reference#class-definition) to display and define a class
