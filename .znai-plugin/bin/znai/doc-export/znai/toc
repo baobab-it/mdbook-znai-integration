@@ -1,1 +1,87 @@
-
+introduction
+    what-is-this
+    getting-started
+flow
+    structure
+    landing
+    names
+    page-references
+    page-toc
+    lookup-paths
+    search
+    footer
+    support
+    presentation
+    testing
+    shortcuts
+snippets
+    code-snippets
+    external-code-snippets
+    snippets-manipulation
+    code-comments
+    inlined-code-snippets
+    api-parameters
+    code-references
+    json
+    xml
+    open-API
+    CLI
+    math
+    jupyter-notebook
+    cpp
+    python
+    java
+    groovy
+    markdown
+visuals
+    attention-signs
+    images
+    image-annotations
+    cards
+    charts
+    mermaid-diagrams
+    SVG
+    icons
+    headings
+    text-badge
+    spoilers
+    keyboard-shortcuts
+    smart-bullet-points
+    flow-diagrams
+    graphviz-diagrams
+    PlantUml
+    iframe
+layout
+    tabs
+    tables
+    columns
+    templates
+    two-sides-pages
+    two-sides-tabs
+    jupyter-notebook-two-sides
+python
+    content-extraction
+    description-extraction
+    auto-reference
+CPP
+    doxygen-setup
+    description-extraction
+    auto-reference
+java
+    content-extraction
+    description-extraction
+    auto-reference
+synergy-with-testing
+    web-UI
+    REST-API
+    business-logic
+configuration
+    basic
+example-references
+    domain
+    api
+znai-development
+    local-build
+release-notes
+    2022
+    2021
