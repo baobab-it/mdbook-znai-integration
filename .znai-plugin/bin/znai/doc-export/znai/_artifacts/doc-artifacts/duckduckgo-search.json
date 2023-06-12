@@ -1,0 +1,16 @@
+{
+  "shapes" : [ {
+    "type" : "badge",
+    "text" : "1",
+    "x" : 374,
+    "y" : 39,
+    "align" : "Center"
+  }, {
+    "type" : "badge",
+    "text" : "2",
+    "x" : 367,
+    "y" : 236,
+    "align" : "Center"
+  } ],
+  "pixelRatio" : 2
+}
