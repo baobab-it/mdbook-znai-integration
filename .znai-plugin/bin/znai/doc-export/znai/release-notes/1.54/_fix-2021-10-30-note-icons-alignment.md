@@ -1,0 +1,1 @@
+* Fix: icon alignment regression in [Attention Paragraphs](visuals/attention-signs)

@@ -1,0 +1,1 @@
+* Add [graphviz](visuals/graphviz-diagrams) include plugin  

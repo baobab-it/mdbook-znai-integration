@@ -1,0 +1,1 @@
+* Add Doxygen [ignore template parameter](CPP/description-extraction#ignore-template-parameters) 

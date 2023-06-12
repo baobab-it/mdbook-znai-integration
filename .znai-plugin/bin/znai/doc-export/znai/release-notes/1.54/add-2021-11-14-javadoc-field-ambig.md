@@ -1,0 +1,1 @@
+* Add [inner classes](java/description-extraction#inner-classes) reference to java doc parsing
